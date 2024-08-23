@@ -66,6 +66,6 @@
     ]
   },
   "url": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta",
-  "manifest": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/releases/download/BETA_0.0.4/module.json",
-  "download": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/releases/download/BETA_0.0.4/pf2e-ko.zip"
+  "manifest": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/blob/main/module.json",
+  "download": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/archive/refs/heads/main.zip"
 }
