@@ -32,7 +32,7 @@
           "name": "스킬 동작으로 중복 동작 숨기기",
           "hint": "동작 목록 또는 스킬 동작 목록에서 중복 동작을 숨길지 여부",
           "doNotHide": "숨기지 않음",
-          "hideActions": "작업 숨기기",
+          "hideActions": "액션 숨기기",
           "hideSkillActions": "스킬 동작 숨기기"
         },
         "IconStyle": {
@@ -43,7 +43,7 @@
         },
         "Description": {
           "name": "스킬 동작 설명",
-          "hint": "굴림 시 채팅에 작업 설명을 표시할지 여부"
+          "hint": "굴림 시 채팅에 액션 설명을 표시할지 여부"
         },
         "variants": {
           "administerFirstAid": {
@@ -197,8 +197,8 @@
       "actionsReminderAllow": {
         "all": "모두",
         "gm": "GM",
-        "hint": "작업 수 알림을 채팅 메시지로 표시하려면 확인란을 선택합니다.",
-        "name": "작업 알림을 받는 대상",
+        "hint": "액션 수 알림을 채팅 메시지로 표시하려면 확인란을 선택합니다.",
+        "name": "액션 알림을 받는 대상",
         "none": "없음",
         "players": "플레이어"
       },

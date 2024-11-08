@@ -10,7 +10,7 @@
   },
   "Absorb into the Aegis": {
     "name": "방패에 흡수",
-    "description": "<p><strong>트리거</strong> 적이 자신 또는 자신으로부터 15피트 내에 있는 아군을 대상으로 주문을 시전합니다</p>\n<hr />\n<p>당신은 방패의 보호막을 주문에 개입시킵니다. 자신의 종교 수식어를 반격 수식어로 사용하여 반격 체크를 시도합니다. 성공하면 주문이 무효화되고 방패가 마법 에너지를 흡수하고 분산시키면서 주문 레벨의 4배에 해당하는 피해를 받습니다. 실패하면 방패가 주문 레벨의 두 배에 해당하는 피해를 받습니다.</p>"
+    "description": "<p><strong>트리거</strong> 적이 자신 또는 자신으로부터 15피트 내에 있는 아군을 대상으로 주문을 시전합니다</p>\n<hr />\n<p>당신은 방패의 보호막을 주문에 개입시킵니다. 자신의 종교 수정치를 반격 수정치로 사용하여 반격 체크를 시도합니다. 성공하면 주문이 무효화되고 방패가 마법 에너지를 흡수하고 분산시키면서 주문 레벨의 4배에 해당하는 피해를 받습니다. 실패하면 방패가 주문 레벨의 두 배에 해당하는 피해를 받습니다.</p>"
   },
   "Accept Echo": {
     "name": "메아리 수락",
@@ -210,7 +210,7 @@
   },
   "Breath Weapon (Riding Drake)": {
     "name": "숨결 무기 (라이딩 드레이크)",
-    "description": "<p>라이딩 드레이크가 @Template[type:cone|distance:30]{30피트 원뿔}의 불을 뿜어내어 범위 내의 모든 생물에게 [[/r ((ceil(@actor.level/2))d6)[fire]]]{드레이크가 가진 레벨 2마다 1d6의 화염 피해}를 줍니다(기본 반사 내성 굴림). 드레이크의 체질 수식어를 사용하는 훈련된 DC를 사용하거나, 드레이크가 전문화된 경우 전문 DC를 사용합니다.</p>"
+    "description": "<p>라이딩 드레이크가 @Template[type:cone|distance:30]{30피트 원뿔}의 불을 뿜어내어 범위 내의 모든 생물에게 [[/r ((ceil(@actor.level/2))d6)[fire]]]{드레이크가 가진 레벨 2마다 1d6의 화염 피해}를 줍니다(기본 반사 내성 굴림). 드레이크의 체질 수정치를 사용하는 훈련된 DC를 사용하거나, 드레이크가 전문화된 경우 전문 DC를 사용합니다.</p>"
   },
   "Breath Weapon (Void) (Cone)": {
     "name": "숨결 무기 (공허) (원뿔)",
@@ -314,7 +314,7 @@
   },
   "Climb": {
     "name": "등반",
-    "description": "<p><strong>요건</strong> 양손이 자유롭습니다</p>\n<hr />\n<p>최대 5피트 거리를 위, 아래 또는 경사면을 가로질러 이동하는 <span data-pf2-action=\"climb\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다. 등반 속도가 없는 경우 등반 중에는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비} 상태입니다. GM은 경사의 특성과 주변 환경에 따라 DC를 결정하므로, 등반 쉬운 경사에서는 자동으로 크리티컬에 성공할 수 있습니다. 지상 속도가 40피트 이상인 경우, 속도가 20피트를 초과할 때마다 최대 거리가 5피트씩 증가합니다.</p>\n<hr />\n<p><strong>대성공</strong> 경사를 따라 이동하면서 최대 거리가 5피트씩 증가합니다.</p>\n<p><strong>성공</strong> 경사를 따라 이동합니다.</p>\n<p><strong>크리티컬 실패</strong> 낙하합니다. 안정된 지면에서 등반을 시작한 경우, 추락하여 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 자세}로 착지합니다. </p>\n<h2>등반 작업 예시</h2>\n<ul>\n<li><strong>비훈련</strong> 사다리, 가파른 경사, 낮은 가지가 있는 나무</li>\n<li><strong>훈련</strong> 장비, 밧줄, 전형적인 나무</li>\n<li><strong>전문</strong> 작은 잡을만한 곳 및 발판이 있는 벽</li>\n<li><strong>통달</strong> 잡을한한 곳 및 발판이 있는 천장, 암벽</li>\n<li><strong>전설적인</strong> 매끄러운 표면</li>\n</ul>"
+    "description": "<p><strong>요건</strong> 양손이 자유롭습니다</p>\n<hr />\n<p>최대 5피트 거리를 위, 아래 또는 경사면을 가로질러 이동하는 <span data-pf2-action=\"climb\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다. 등반 속도가 없는 경우 등반 중에는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비} 상태입니다. GM은 경사의 특성과 주변 환경에 따라 DC를 결정하므로, 등반 쉬운 경사에서는 자동으로 크리티컬에 성공할 수 있습니다. 지상 속도가 40피트 이상인 경우, 속도가 20피트를 초과할 때마다 최대 거리가 5피트씩 증가합니다.</p>\n<hr />\n<p><strong>대성공</strong> 경사를 따라 이동하면서 최대 거리가 5피트씩 증가합니다.</p>\n<p><strong>성공</strong> 경사를 따라 이동합니다.</p>\n<p><strong>크리티컬 실패</strong> 낙하합니다. 안정된 지면에서 등반을 시작한 경우, 추락하여 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 자세}로 착지합니다. </p>\n<h2>등반 액션 예시</h2>\n<ul>\n<li><strong>비훈련</strong> 사다리, 가파른 경사, 낮은 가지가 있는 나무</li>\n<li><strong>훈련</strong> 장비, 밧줄, 전형적인 나무</li>\n<li><strong>전문</strong> 작은 잡을만한 곳 및 발판이 있는 벽</li>\n<li><strong>통달</strong> 잡을한한 곳 및 발판이 있는 천장, 암벽</li>\n<li><strong>전설적인</strong> 매끄러운 표면</li>\n</ul>"
   },
   "Clue In": {
     "name": "단서 제공",
@@ -598,7 +598,7 @@
   },
   "Escape": {
     "name": "탈출",
-    "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태에서 탈출을 시도합니다. 자신에게 이러한 조건을 부과하는 생물, 물체, 주문 효과, 위험 또는 기타 장애물을 하나 선택합니다. 효과의 DC에 대해 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"unarmed\">비무장 공격 수정치</span> 를 사용하여 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\">체크</span> 를 시도합니다. 일반적으로 자신을 붙잡은 생물의 운동 능력 DC, 자신을 묶은 생물의 도둑질 DC, 주문 효과의 주문 DC, 또는 물체, 위험 또는 기타 장애물의 나열된 탈출 DC가 해당됩니다. 원하는 경우 공격 수식어를 사용하는 대신 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"acrobatics\">곡예</span> 또는 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"athletics\">운동</span> 체크를 시도할 수 있습니다(단, 이 액션은 여전히 공격 특성을 가집니다).</p>\n<hr />\n<p><strong>대성공</strong> 선택한 대상에게 부여된 붙잡힘, 고정, 구속 상태가 해제되고 자유로워집니다. 그런 다음 최대 5피트까지 이동할 수 있습니다.</p>\n<p><strong> 성공</strong> 자유로워지고 선택한 대상이 부여한 붙잡힘, 이동 불가, 구속 조건을 제거합니다.</p>\n<p><strong> 대실패</strong> 자유로워지지 않으며 다음 턴까지 다시 탈출을 시도할 수 없습니다.</p>"
+    "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태에서 탈출을 시도합니다. 자신에게 이러한 조건을 부과하는 생물, 물체, 주문 효과, 위험 또는 기타 장애물을 하나 선택합니다. 효과의 DC에 대해 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"unarmed\">비무장 공격 수정치</span> 를 사용하여 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\">체크</span> 를 시도합니다. 일반적으로 자신을 붙잡은 생물의 운동 능력 DC, 자신을 묶은 생물의 도둑질 DC, 주문 효과의 주문 DC, 또는 물체, 위험 또는 기타 장애물의 나열된 탈출 DC가 해당됩니다. 원하는 경우 공격 수정치를 사용하는 대신 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"acrobatics\">곡예</span> 또는 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"athletics\">운동</span> 체크를 시도할 수 있습니다(단, 이 액션은 여전히 공격 특성을 가집니다).</p>\n<hr />\n<p><strong>대성공</strong> 선택한 대상에게 부여된 붙잡힘, 고정, 구속 상태가 해제되고 자유로워집니다. 그런 다음 최대 5피트까지 이동할 수 있습니다.</p>\n<p><strong> 성공</strong> 자유로워지고 선택한 대상이 부여한 붙잡힘, 이동 불가, 구속 조건을 제거합니다.</p>\n<p><strong> 대실패</strong> 자유로워지지 않으며 다음 턴까지 다시 탈출을 시도할 수 없습니다.</p>"
   },
   "Expeditious Inspection": {
     "name": "신속한 체크",
@@ -1242,7 +1242,7 @@
   },
   "Screaming Skull": {
     "name": "비명을 지르는 해골",
-    "description": "<p>스켈레톤이 두개골을 꺼내 던져 20피트 범위의 턱 공격을 날립니다. 적중 여부와 상관없이 대상과 10피트 내의 모든 적들은 의지 내성 굴림을 시도하거나 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 1}, 대실패시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2} 상태가 되어야 합니다. 스켈레톤의 카리스마 수식어를 사용하여 훈련된 DC를 사용하거나 스켈레톤이 전문화된 경우 전문 DC를 사용합니다. 해골의 다음 턴이 시작될 때 머리가 튕기거나 구르거나 뒤로 날아가 다시 붙습니다. 스켈레톤은 머리가 떨어져 있는 동안 앞을 볼 수 없습니다.</p>"
+    "description": "<p>스켈레톤이 두개골을 꺼내 던져 20피트 범위의 턱 공격을 날립니다. 적중 여부와 상관없이 대상과 10피트 내의 모든 적들은 의지 내성 굴림을 시도하거나 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 1}, 대실패시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2} 상태가 되어야 합니다. 스켈레톤의 카리스마 수정치를 사용하여 훈련된 DC를 사용하거나 스켈레톤이 전문화된 경우 전문 DC를 사용합니다. 해골의 다음 턴이 시작될 때 머리가 튕기거나 구르거나 뒤로 날아가 다시 붙습니다. 스켈레톤은 머리가 떨어져 있는 동안 앞을 볼 수 없습니다.</p>"
   },
   "Search": {
     "name": "수색",
